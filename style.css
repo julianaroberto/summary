@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+/* vou usar: 500, 700, 800 */
+
+:root {
+
+/* Lembrar de usar a transparência - Hint: look into using `hsla()` */
+
+    /* primary */
+--p-red: hsl(0, 100%, 67%);
+--p-yellow: hsl(39, 100%, 56%);
+--p-green: hsl(166, 100%, 37%);
+--p-blue: hsl(234, 85%, 45%);
+/* gradient */
+--g-blue: rgb(120, 87, 255);
+--g-lighblue: rgb(46, 43, 233);
+--g-violet: rgb(78, 33, 202);
+--g-persianblue: rgba(36, 33, 202, 0);
+/* neutral */
+--n-white: hsl(0, 0%, 100%);
+--n-paleblue: hsl(221, 100%, 96%);
+--n-lightlavender: hsl(241, 100%, 89%);
+--n-darkblue: hsl(224, 30%, 27%);
+}
+
+body {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-style: normal;
+    font-size: 1.8rem;
+}
+
+body {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    text-align: center;
+    background-color: var(--white);
+    padding: 4rem 1rem;
+}
+footer {
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+}
+
+.card_principal {
+    display: flex;
+    flex: column wrap;
+    gap: 2rem;
+}
+
+/* card1 */
+ .card1 {
+    display: block;
+    width: 40vw;
+    height: 60vh;
+    border-radius: 1.4rem;
+    background: linear-gradient(
+ rgb(120, 87, 255, 1) 15%,
+rgba(46, 43, 233, 1) 35%,   
+rgba(78, 33, 202, 1) 65%,
+rgba(36, 33, 202, 1) 100%
+
+);
+} 
+
+.circulo {
+    background-color: rgba(78, 33, 202, 0.555);
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-radius: 100%;
+    width: 9rem;
+    height: 8.5rem;
+    place-content: center;
+}
+
+.card1 > h1 {
+    font-size: 1rem;
+    color: var(--n-lightlavender);
+    padding: 1.7rem;
+    margin: auto;
+    font-weight: 500;
+}
+
+.card1 > .circulo h2 {
+    color: var(--n-white);
+    font-size: 3.1rem;
+
+}
+
+.p100{
+    font-size: 0.7rem;
+    color: var(--n-lightlavender);
+    font-weight: 500;
+}
+
+.card1 > h3 {
+    font-size: 1.5rem;
+    margin-top: 1.7rem;
+    margin-bottom: 0;
+    color: var(--n-white);
+    font-weight: 500;
+}
+
+.card1 > p {
+    font-size: 0.9rem;
+    color: var(--n-lightlavender);
+    padding: 0.7rem;
+    font-weight: 300;
+}
+
+.card1 > .p3{ 
+    padding: 0.7rem 2.2rem;
+    margin-bottom: 1.5rem;
+}
