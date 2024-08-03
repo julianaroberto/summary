@@ -51,6 +51,8 @@ footer {
     display: flex;
     flex: column wrap;
     gap: 2rem;
+   border-radius: 1.9rem;
+   box-shadow: 0.5rem 1.1rem 2.5rem var(--n-lightlavender);
 }
 
 /* card1 */
@@ -60,9 +62,9 @@ footer {
     height: 60vh;
     border-radius: 1.4rem;
     background: linear-gradient(
- rgb(120, 87, 255, 1) 15%,
-rgba(46, 43, 233, 1) 35%,   
-rgba(78, 33, 202, 1) 65%,
+ rgb(120, 87, 255, 1) 22%,
+rgba(46, 43, 233, 1) 45%,   
+rgba(78, 33, 202, 1) 75%,
 rgba(36, 33, 202, 1) 100%
 
 );
@@ -118,4 +120,14 @@ rgba(36, 33, 202, 1) 100%
 .card1 > .p3{ 
     padding: 0.7rem 2.2rem;
     margin-bottom: 1.5rem;
+}
+
+/* card2 */
+
+.card2 > ul {
+    list-style: none;
+}
+
+.card2 > li {
+    margin-top: 1.2rem;
 }
