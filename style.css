@@ -53,10 +53,10 @@ body {
  .card1 {
     display: flex;
     flex-direction: column;
+    min-height: 50vh;
     width: 35vh;
-    height: 50vh;
     border-radius: 1.4rem;
-    padding-bottom: 8rem;
+    padding-bottom: 2rem;
     margin: 0 auto;
     background: linear-gradient(
  rgba(121, 87, 255, 1) 5%,
@@ -135,9 +135,10 @@ rgba(78, 33, 202, 1) 100%
 .card2 {
     flex-direction: column;
     width: 35vh;
-    height: 50vh;
+    min-height: 50vh;
     border-radius: 1.4rem;
     padding: 0 1.5rem;
+    padding-bottom: 4.5rem;
     box-shadow: 0.5rem 1.1rem 2.5rem var(--n-lightlavender);
 }
 
@@ -228,7 +229,7 @@ footer {
 
 /* media queries */
 
- /*@media screen and (min-width: 768px) {
+ /* @media screen and (min-width: 768px) {
     body {
       padding: 9rem 1rem;
       
