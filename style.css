@@ -121,10 +121,18 @@ rgba(36, 33, 202, 1) 100%
 /* card2 */
 
 .card2 > ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
     list-style: none;
 }
 
+.card2 > li {
+    gap: 0.5rem;
+}
+
 .card2 {
+    flex-direction: column;
     width: 40vh;
     height: 55vh;
     border-radius: 1.4rem;
@@ -140,13 +148,14 @@ rgba(36, 33, 202, 1) 100%
     margin: auto;
 }
 
-.card2 > li {
-    gap: 0.5rem;
-}
-
 .reaction {
     background-color: rgba(255, 87, 87, 0.068);
     color: rgb(233, 78, 78);
+    font-weight: 800;
+}
+
+.bold_p {
+    color: var(--n-darkblue);
     font-weight: 800;
 }
 
@@ -156,7 +165,6 @@ rgba(36, 33, 202, 1) 100%
     border-radius: 0.5rem;
     padding: 0.75rem 1rem;
 }
-
 
 
 footer {
